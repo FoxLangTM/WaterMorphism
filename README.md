@@ -13,7 +13,8 @@ Add the following script to your HTML:
 
 This loads the WaterMorphism SVG filters directly into the page DOM.
 Then apply the main filter to your element:
-```backdrop-filter: url(#water-ripple);
+```
+backdrop-filter: url(#water-ripple);
 -webkit-backdrop-filter: url(#water-ripple);
 ```
 ## Optional:
