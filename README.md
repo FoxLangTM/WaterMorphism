@@ -18,7 +18,7 @@ backdrop-filter: url(#water-ripple);
 -webkit-backdrop-filter: url(#water-ripple);
 ```
 ## Optional:
-### background: rgba(255, 255, 255, 0.01); }
+### background: rgba(255, 255, 255, 0.01);
 
 ## How it works
 WaterMorphism uses animated _SVG_ filters to create:
