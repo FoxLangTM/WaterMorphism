@@ -4,6 +4,8 @@ An advanced SVG-based water refraction and distortion effect for web interfaces.
 
 WaterMorphism creates an animated water-like distortion using SVG filters and can be applied to elements with `backdrop-filter`.
 
+<video src="https://jumpshare.com/embed/U8kWU66xttTVxlq5wIyA" width="600"></video>
+
 ## Usage
 
 Add the following script to your HTML:
