@@ -14,7 +14,7 @@ Add the following script to your HTML:
 ```
 For intensive version
 ```html.
-<script>fetch('https://raw.githubusercontent.com/FoxLangTM/WaterMorphism/main/svg.html').then(r=>r.text()).then(s=>document.body.insertAdjacentHTML('afterbegin',s))</script>
+<script>fetch('https://raw.githubusercontent.com/FoxLangTM/WaterMorphism/main/int-svg.html').then(r=>r.text()).then(s=>document.body.insertAdjacentHTML('afterbegin',s))</script>
 ```
 
 This loads the WaterMorphism SVG filters directly into the page DOM.
