@@ -39,7 +39,9 @@ The SVG filters are loaded separately so the main HTML implementation stays mini
 Filters
 
 ### The main filter is:
-```url(#water-ripple)```
+```css.
+url(#water-ripple)
+```
 
 
 ## Attribution
