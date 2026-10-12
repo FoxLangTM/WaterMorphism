@@ -13,12 +13,13 @@ Add the following script to your HTML:
 <script>fetch('https://raw.githubusercontent.com/FoxLangTM/WaterMorphism/main/svg.html').then(r=>r.text()).then(s=>document.body.insertAdjacentHTML('afterbegin',s))</script>
 ```
 For intensive version
-```<script>fetch('https://raw.githubusercontent.com/FoxLangTM/WaterMorphism/main/svg.html').then(r=>r.text()).then(s=>document.body.insertAdjacentHTML('afterbegin',s))</script>
+```html.
+<script>fetch('https://raw.githubusercontent.com/FoxLangTM/WaterMorphism/main/svg.html').then(r=>r.text()).then(s=>document.body.insertAdjacentHTML('afterbegin',s))</script>
 ```
 
 This loads the WaterMorphism SVG filters directly into the page DOM.
 Then apply the main filter to your element:
-```
+```css.
 backdrop-filter: url(#water-ripple);
 -webkit-backdrop-filter: url(#water-ripple);
 ```
